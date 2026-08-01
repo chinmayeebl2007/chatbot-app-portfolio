@@ -1,0 +1,477 @@
+:root{
+
+  --bg:#F5F7FB;
+  --surface:#FFFFFF;
+  --surface2:#F9FAFB;
+
+  --text:#111827;
+  --text2:#6B7280;
+
+  --primary:#6366F1;
+  --secondary:#8B5CF6;
+
+  --border:#E5E7EB;
+
+  --success:#10B981;
+  --danger:#EF4444;
+
+  --shadow:
+      0 10px 30px rgba(15,23,42,.08);
+
+  --radius:22px;
+
+}
+
+/* ==========================
+   DARK MODE
+========================== */
+
+body.dark{
+
+  --bg:#0F172A;
+
+  --surface:#111827;
+
+  --surface2:#1E293B;
+
+  --text:#F8FAFC;
+
+  --text2:#CBD5E1;
+
+  --border:#334155;
+
+  --shadow:
+      0 10px 35px rgba(0,0,0,.45);
+
+}
+
+/* ==========================
+   RESET
+========================== */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+
+  font-family:
+      Inter,
+      Poppins,
+      sans-serif;
+
+  font-size:16px;
+
+  line-height:1.6;
+
+  background:var(--bg);
+
+  color:var(--text);
+
+  transition:
+      background .35s,
+      color .35s;
+}
+
+#root{
+  min-height:100vh;
+}
+
+/* ==========================
+   TYPOGRAPHY
+========================== */
+
+h1,h2,h3,h4,h5,h6{
+
+  color:var(--text);
+
+  font-weight:700;
+
+}
+
+p{
+
+  color:var(--text2);
+
+}
+
+span{
+
+  color:inherit;
+
+}
+
+strong{
+
+  color:inherit;
+
+}
+
+/* ==========================
+   BUTTON
+========================== */
+
+button{
+
+  font-family:inherit;
+
+  cursor:pointer;
+
+  transition:.25s;
+
+}
+
+button:hover{
+
+  transform:translateY(-2px);
+
+}
+
+button:disabled{
+
+  opacity:.6;
+
+  cursor:not-allowed;
+
+}
+
+/* ==========================
+   INPUT
+========================== */
+
+input,
+textarea{
+
+  font-family:inherit;
+
+  border:none;
+
+  outline:none;
+
+  background:transparent;
+
+  color:var(--text);
+
+}
+
+input::placeholder{
+
+  color:var(--text2);
+
+}
+
+/* ==========================
+   LINKS
+========================== */
+
+a{
+
+  color:inherit;
+
+  text-decoration:none;
+
+}
+
+/* ==========================
+   IMAGES
+========================== */
+
+img{
+
+  max-width:100%;
+
+  display:block;
+
+}
+
+/* ==========================
+   GLASS CARD
+========================== */
+
+.glass-card{
+
+  background:var(--surface);
+
+  border:1px solid var(--border);
+
+  border-radius:var(--radius);
+
+  box-shadow:var(--shadow);
+
+  backdrop-filter:blur(20px);
+
+}
+
+/* ==========================
+   PAGE CARD
+========================== */
+
+.page-card{
+
+  background:var(--surface);
+
+  border:1px solid var(--border);
+
+  border-radius:28px;
+
+  padding:36px;
+
+  box-shadow:var(--shadow);
+
+}
+
+.page-header{
+
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:center;
+
+  margin-bottom:28px;
+
+}
+
+/* ==========================
+   SCROLLBAR
+========================== */
+
+::-webkit-scrollbar{
+
+  width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+  background:#6366F1;
+
+  border-radius:999px;
+
+}
+
+::-webkit-scrollbar-track{
+
+  background:transparent;
+
+}
+
+/* ==========================
+   DARK MODE FIXES
+========================== */
+
+body.dark .hero{
+
+  background:var(--surface);
+
+}
+
+body.dark .workspace{
+
+  background:var(--bg);
+
+}
+
+body.dark .chat-workspace{
+
+  background:var(--surface);
+
+}
+
+body.dark .contact-card{
+
+  background:var(--surface);
+
+  border-color:var(--border);
+
+}
+
+body.dark .setting-card{
+
+  background:var(--surface);
+
+  border-color:var(--border);
+
+}
+
+body.dark .history-item{
+
+  background:var(--surface);
+
+}
+
+body.dark .project-card{
+
+  background:var(--surface);
+
+}
+
+body.dark .floating-card{
+
+  background:var(--surface);
+
+  border-color:var(--border);
+
+  color:var(--text);
+
+}
+
+body.dark .hero-stat{
+
+  background:var(--surface2);
+
+}
+
+body.dark .hero-secondary{
+
+  background:var(--surface2);
+
+  color:var(--text);
+
+}
+
+body.dark .sidebar{
+
+  background:var(--surface);
+
+}
+
+body.dark .sidebar-footer{
+
+  background:var(--surface2);
+
+}
+
+body.dark .chat-input{
+
+  background:var(--surface);
+
+}
+
+body.dark .workspace-chat{
+
+  background:var(--surface2);
+
+}
+/* ===========================
+   COMPLETE DARK MODE FIXES
+===========================*/
+
+body.dark{
+    color:var(--text);
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6{
+    color:#F8FAFC !important;
+}
+
+body.dark p,
+body.dark span,
+body.dark small,
+body.dark label,
+body.dark li{
+    color:#CBD5E1 !important;
+}
+
+body.dark strong{
+    color:#FFFFFF !important;
+}
+
+body.dark button{
+    color:#F8FAFC;
+}
+
+body.dark input,
+body.dark textarea{
+    color:#F8FAFC;
+    background:transparent;
+}
+
+body.dark input::placeholder{
+    color:#94A3B8;
+}
+
+/* suggestion chips */
+
+body.dark .quick-question,
+body.dark .suggestion-chip,
+body.dark .suggestion{
+    background:#1E293B !important;
+    color:#F8FAFC !important;
+    border:1px solid #334155;
+}
+
+/* chat */
+
+body.dark .chat-card{
+    background:#1E293B !important;
+    color:#F8FAFC !important;
+}
+
+body.dark .chat-card p{
+    color:#F8FAFC !important;
+}
+
+body.dark .chat-info span{
+    color:#94A3B8 !important;
+}
+
+body.dark .chat-info strong{
+    color:white !important;
+}
+
+/* history */
+
+body.dark .history-item{
+    background:#1E293B !important;
+    color:white !important;
+}
+
+body.dark .history-item p{
+    color:#CBD5E1 !important;
+}
+
+/* cards */
+
+body.dark .glass-card,
+body.dark .page-card,
+body.dark .project-card,
+body.dark .contact-card,
+body.dark .setting-card{
+    background:#111827 !important;
+    color:white !important;
+}
+
+/* hero */
+
+body.dark .hero-description,
+body.dark .hero-subtitle{
+    color:#CBD5E1 !important;
+}
+
+/* sidebar */
+
+body.dark .sidebar-brand p{
+    color:#CBD5E1 !important;
+}
+
+body.dark .sidebar-footer p{
+    color:#CBD5E1 !important;
+}
+
+/* links */
+
+body.dark a{
+    color:#A5B4FC;
+}

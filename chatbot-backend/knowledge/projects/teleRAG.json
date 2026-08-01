@@ -1,0 +1,22 @@
+{
+  "name": "TeleRAG-X",
+  "title": "Telecom Intelligence Platform",
+  "description": "An AI-powered telecom intelligence system using Retrieval-Augmented Generation and Gemini.",
+  "problem": "Telecom teams often spend significant time searching large collections of technical documentation for troubleshooting and decision-making.",
+  "solution": "TeleRAG-X combines Retrieval-Augmented Generation with Gemini to retrieve relevant telecom documents and generate contextual answers.",
+  "features": [
+    "Document Retrieval",
+    "Semantic Search",
+    "Question Answering",
+    "Gemini AI Integration"
+  ],
+  "techStack": [
+    "React",
+    "TypeScript",
+    "Express.js",
+    "Gemini API",
+    "RAG"
+  ],
+   "github": "https://github.com/chinmayeebl2007/3GPP",
+  "status": "Completed"
+}

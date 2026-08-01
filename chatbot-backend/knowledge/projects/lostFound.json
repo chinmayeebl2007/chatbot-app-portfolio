@@ -1,0 +1,20 @@
+{
+  "name": "Lost & Found Portal",
+  "title": "Campus Lost and Found System",
+  "description": "A full-stack web application that helps users report, search, and recover lost items.",
+  "problem": "Managing lost items manually is inefficient and often results in items never being returned.",
+  "solution": "The portal provides authentication, item posting, search, and status tracking to simplify recovery.",
+  "features": [
+    "Authentication",
+    "Item Management",
+    "Search",
+    "Responsive Interface"
+  ],
+  "techStack": [
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB"
+  ],
+  "status": "Completed"
+}

@@ -1,0 +1,30 @@
+{
+  "languages": [
+    "Java",
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "C++"
+  ],
+  "backend": [
+    "Node.js",
+    "Express.js",
+    "REST APIs"
+  ],
+  "database": [
+    "MongoDB",
+    "SQLite",
+    "PostgreSQL"
+  ],
+  "ai": [
+    "Gemini API",
+    "Prompt Engineering",
+    "RAG"
+  ],
+  "tools": [
+    "Git",
+    "GitHub",
+    "VS Code",
+    "Vercel"
+  ]
+}

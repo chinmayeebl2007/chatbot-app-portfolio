@@ -1,0 +1,30 @@
+{
+  "name": "JobBridge",
+
+  "title": "AI Resume Analyzer and Job Matcher",
+
+  "description": "JobBridge is an AI-powered platform that analyzes resumes, matches candidates with suitable jobs, and identifies skill gaps using the Gemini API.",
+
+  "problem": "Students often struggle to understand whether their resume matches job requirements and what skills they need to improve.",
+
+  "solution": "JobBridge uses Gemini AI to analyze resumes, compare them with job descriptions, and provide personalized recommendations.",
+
+  "features": [
+    "Resume Analysis",
+    "Job Matching",
+    "Skill Gap Analysis",
+    "AI Recommendations"
+  ],
+
+  "techStack": [
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Gemini API"
+  ],
+
+  "github": "https://github.com/chinmayeebl2007/Jobbridge",
+
+  "status": "Completed"
+}

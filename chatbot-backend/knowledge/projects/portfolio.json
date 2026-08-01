@@ -1,0 +1,23 @@
+{
+  "name": "AI Portfolio Assistant",
+  "title": "Personal AI Portfolio Website",
+  "description": "An AI-powered portfolio chatbot that answers questions about projects, skills, education and experience.",
+  "problem": "Recruiters usually have to browse multiple pages to understand a candidate.",
+  "solution": "Built an AI assistant that provides conversational access to my portfolio and projects.",
+  "features": [
+    "AI Chat",
+    "Project Explorer",
+    "Resume Access",
+    "Conversation Memory"
+  ],
+  "techStack": [
+    "React",
+    "TypeScript",
+    "Node.js",
+    "Express",
+    "Gemini API"
+  ],
+  "github": "https://github.com/chinmayeebl2007/Portfolio",
+  "demo": "https://portfolio-li9rqaiaj-chinmayeebl.vercel.app",
+  "status": "Completed"
+}

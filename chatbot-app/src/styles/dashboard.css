@@ -1,0 +1,272 @@
+/* ==========================================
+   WORKSPACE
+========================================== */
+
+.workspace{
+    display:grid;
+    grid-template-columns:280px 1fr;
+    min-height:100vh;
+    background:var(--bg);
+}
+
+.workspace-main{
+    padding:35px;
+    overflow-y:auto;
+}
+
+/* ==========================================
+   PAGE
+========================================== */
+
+.page-card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:28px;
+    padding:40px;
+    box-shadow:var(--shadow);
+}
+
+.page-card h1{
+    font-size:40px;
+    margin-bottom:12px;
+}
+
+.page-card p{
+    color:var(--text2);
+}
+
+/* ==========================================
+   CHAT SECTION
+========================================== */
+
+.chat-workspace{
+    margin-top:30px;
+    padding:30px;
+    border-radius:28px;
+    background:var(--surface);
+    border:1px solid var(--border);
+    box-shadow:var(--shadow);
+}
+
+.workspace-header{
+    margin-bottom:24px;
+}
+
+.workspace-header h2{
+    font-size:36px;
+    font-weight:800;
+    color:var(--text);
+}
+
+.workspace-header p{
+    margin-top:8px;
+    font-size:17px;
+    color:var(--text2);
+}
+
+.workspace-chat{
+    height:600px;
+    margin-top:28px;
+    overflow:hidden;
+    border-radius:22px;
+    border:1px solid var(--border);
+    background:var(--surface2);
+}
+
+/* ==========================================
+   HISTORY
+========================================== */
+
+.history-list{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+    margin-top:30px;
+}
+
+.history-item{
+    width:100%;
+    text-align:left;
+    padding:18px 22px;
+    border:none;
+    border-radius:16px;
+    background:var(--surface2);
+    color:var(--text);
+    border:1px solid var(--border);
+    transition:.25s;
+}
+
+.history-item:hover{
+    transform:translateX(6px);
+    border-color:#6366F1;
+}
+
+/* ==========================================
+   CONTACT
+========================================== */
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:22px;
+    margin-top:30px;
+}
+
+.contact-card{
+    padding:28px;
+    border:none;
+    border-radius:22px;
+    background:var(--surface2);
+    border:1px solid var(--border);
+    text-align:left;
+    transition:.25s;
+}
+
+.contact-card:hover{
+    transform:translateY(-5px);
+    border-color:#6366F1;
+}
+
+.contact-card h3{
+    margin-bottom:14px;
+    font-size:22px;
+    color:var(--text);
+}
+
+.contact-card p{
+    line-height:1.7;
+    word-break:break-word;
+}
+
+/* ==========================================
+   SETTINGS
+========================================== */
+
+.settings-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:22px;
+    margin-top:30px;
+}
+
+.setting-card{
+    padding:28px;
+    border-radius:22px;
+    background:var(--surface2);
+    border:1px solid var(--border);
+}
+
+.setting-card h3{
+    margin-bottom:12px;
+}
+
+.setting-btn,
+.delete-btn{
+
+    margin-top:18px;
+
+    height:48px;
+
+    padding:0 22px;
+
+    border:none;
+
+    border-radius:14px;
+
+    font-size:15px;
+
+    font-weight:700;
+
+    cursor:pointer;
+}
+
+.setting-btn{
+    background:#6366F1;
+    color:white;
+    margin-right:10px;
+}
+
+.delete-btn{
+    background:#EF4444;
+    color:white;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:1100px){
+
+.workspace{
+    grid-template-columns:1fr;
+}
+
+.workspace-main{
+    padding:18px;
+}
+
+.chat-workspace{
+    padding:20px;
+}
+
+.workspace-chat{
+    height:520px;
+}
+
+}
+
+@media(max-width:700px){
+
+.workspace-header h2{
+    font-size:28px;
+}
+
+.page-card{
+    padding:24px;
+}
+
+.contact-grid,
+.settings-grid{
+    grid-template-columns:1fr;
+}
+
+}
+.suggestions{
+    display:flex;
+    flex-wrap:wrap;
+    gap:14px;
+    margin:18px 0 24px;
+}
+
+.suggestion-card{
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    padding:12px 18px;
+
+    border-radius:14px;
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    cursor:pointer;
+
+    transition:.25s;
+}
+
+.suggestion-card:hover{
+    transform:translateY(-2px);
+    border-color:#6366F1;
+}
+
+.suggestion-icon{
+    font-size:20px;
+}
+
+.suggestion-text{
+    font-size:18px;   /* increase this */
+    font-weight:600;
+    color:var(--text);
+}
