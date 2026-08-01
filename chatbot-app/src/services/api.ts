@@ -23,7 +23,8 @@ export type ChatResponse = {
   url?: string | null;
 };
 
-const API_URL = "http://localhost:5000/api/chat";
+const API_URL =
+  "https://chatbot-app-portfolio.onrender.com/api/chat";
 
 export async function sendMessage(
   message: string
