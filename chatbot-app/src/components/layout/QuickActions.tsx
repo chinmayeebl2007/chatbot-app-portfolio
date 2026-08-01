@@ -1,8 +1,8 @@
 import {
-  Github,
+  GitBranch,
   FileText,
   FolderKanban,
-  Linkedin,
+  Globe,
 } from "lucide-react";
 
 type Props = {
@@ -17,13 +17,13 @@ const actions = [
     question: "Show me your resume",
   },
   {
-    icon: <Github size={24} />,
+    icon: <GitBranch size={24} />,
     title: "GitHub",
     description: "Browse my repositories",
     question: "Open your GitHub",
   },
   {
-    icon: <Linkedin size={24} />,
+    icon: <Globe size={24} />,
     title: "LinkedIn",
     description: "Professional profile",
     question: "Open your LinkedIn",
