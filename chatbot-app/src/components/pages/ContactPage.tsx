@@ -16,7 +16,7 @@ function ContactPage() {
       icon: "💼",
       title: "LinkedIn",
       value: "linkedin.com/in/chinmayeebl",
-      link: "https://linkedin.com/in/chinmayeebl",
+      link: "https://www.linkedin.com/in/chinmayee-b-l-2160b2366",
     },
     {
       icon: "🤖",
